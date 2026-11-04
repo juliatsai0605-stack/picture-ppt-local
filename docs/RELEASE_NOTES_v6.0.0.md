@@ -1,10 +1,10 @@
 # 圖片簡報轉可編輯 PPT｜Windows v6
 
-> **發布前審核文件**：此文件是 GitHub Release 說明稿，並不代表已建立公開 Release。須待 ZIP 附件上架、完成授權與必要驗收後再公開。
+> **正式發行資訊**：v6.0.0 已建立公開 GitHub Release 並附 ZIP；Windows 全流程測試與教學影片尚未完成，詳細請參閱驗收狀態。
 
 ## 檔案
 
-- 檔名：`圖片簡報轉PPT_本機版_Windows_v6.zip`
+- 公開下載檔名：`picture-to-editable-ppt_Windows_v6.zip`
 - 大小：369,330,309 位元組（約 352.2 MiB）
 - SHA-256：`f3278622a93e70ccdd91479550cd29d2afa0a525689d0550cec92986770bc873`
 - 來源：已於家中 Windows 電腦 E 槽核對檔案大小和 SHA-256（2026-11-04）。
@@ -40,7 +40,7 @@
 - [x] ZIP 實體存在、容量與 Claude 提供的 SHA-256 一致
 - [x] ZIP 解壓縮
 - [ ] Windows 實機啟動、轉換及 PPTX 端到端驗收（本測試電腦遭企業簽章原則阻擋）
-- [ ] 公開 GitHub Release 附件
+- [x] 公開 GitHub Release 附件
 - [ ] 發布網站直接下載連結
 - [ ] 真實操作影片
 
