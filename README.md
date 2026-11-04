@@ -10,7 +10,7 @@
 
 ## 下載
 
-到右側 **[Releases](../../releases/latest)** 下載 `圖片簡報轉PPT_本機版_Windows_v6.zip`（約 370 MB）。
+**下載狀態（待發布）：** 目前 GitHub 尚無正式 Release 或可下載的 Windows ZIP。待核對 v6 發行檔後，將透過 [Releases](../../releases) 提供；請勿將原始碼壓縮包誤當成免安裝程式。
 
 ## 使用方式（免安裝）
 
