@@ -1,5 +1,10 @@
 # 圖片簡報轉可編輯 PPT（Windows 免安裝本機版）
 
+> **產品展示網站（規劃網址）**：https://juliatsai0605-stack.github.io/picture-ppt-local/  
+> **完整操作教學**：網站內「使用教學」；[影片錄製腳本](docs/VIDEO_SCRIPT.md)（真實操作影片尚待錄製）  
+> **未來專案發布範本**：[GitHub 展示網站與影片發布流程](docs/PROJECT_LAUNCH_TEMPLATE.md)  
+
+
 把 AI 產生的簡報圖片（PNG／JPG）轉成可以修改文字的 PowerPoint。
 **全程在自己的電腦執行，圖片不會上傳到網路**，可拔掉網路使用。
 
