@@ -1,7 +1,7 @@
 # 圖片簡報轉可編輯 PPT（Windows 本機版）
 
 > **產品展示網站（已公開）**：https://juliatsai0605-stack.github.io/picture-ppt-local/  
-> **完整操作教學**：網站內「使用教學」；[影片錄製腳本](docs/VIDEO_SCRIPT.md)（真實操作影片尚待錄製）  
+> **完整操作教學**：[Windows v6 免費使用及 AI Agent 安裝指引](docs/USER_GUIDE_WINDOWS_v6.md)；[影片錄製腳本](docs/VIDEO_SCRIPT.md)（真實操作影片尚待錄製）  
 > **未來專案發布範本**：[GitHub 展示網站與影片發布流程](docs/PROJECT_LAUNCH_TEMPLATE.md)  
 
 
