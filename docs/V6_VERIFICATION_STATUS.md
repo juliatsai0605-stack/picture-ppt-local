@@ -31,3 +31,11 @@
 發布前，勿將 Linux 測試表述為 Windows EXE 實測；不得以 Linux 截圖當作 Windows 教學；不應宣稱 OCR 零錯誤、所有圖形皆可編輯、絕無網路傳輸或已完成 Windows 安全驗證。任何 SmartScreen 警示均應先檢查來源、雜湊及安全政策，不引導直接關閉防護。
 
 影片及 ZIP 建議存於 GitHub Release 資產，避免將大型二進位檔加入 Git 歷史。
+
+## 2026-11-04 補充：Smart App Control 唯讀診斷
+
+- 家中 Windows 11 桌機 `HKLM:\SYSTEM\CurrentControlSet\Control\CI\Policy` 的 `VerifiedAndReputablePolicyState=1`，依 Microsoft 官方定義代表 **Smart App Control 強制執行**；未更動任何系統設定。
+- 與啟動阻擋同時的事件 3089 XML：`TotalSignatureCount=0`、`ValidatedSigningLevel=0`、`PublisherName=Unknown`、`IssuerName=Unknown`，確認遭阻擋的啟動檔無簽章。
+- `citool.exe -lp` 唯讀查詢回傳 `0x80070005` 存取遭拒，未取得完整政策清單。已知 3077/3033 及登錄值足以支持 SAC 強制執行判斷；不能宣稱完成全部政策核查。
+- Claude 報告 140 個執行檔中 96 個未簽章；這項統計本次未獨立重算，也未逐一驗證其載入是否遭阻擋。原始 `V6_WINDOWS_BLOCK_DIAGNOSIS.md` 未在桌機已搜尋磁碟找到，尚未原檔提交。
+- Microsoft 文件：<https://learn.microsoft.com/en-us/windows/apps/develop/smart-app-control/test-your-app-with-smart-app-control>。Release 及 Windows 錄影維持暫緩，不停用或繞過任何防護。
