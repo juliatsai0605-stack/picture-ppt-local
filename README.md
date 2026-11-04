@@ -1,6 +1,6 @@
-# 圖片簡報轉可編輯 PPT（Windows 免安裝本機版）
+# 圖片簡報轉可編輯 PPT（Windows 本機版）
 
-> **產品展示網站（規劃網址）**：https://juliatsai0605-stack.github.io/picture-ppt-local/  
+> **產品展示網站（已公開）**：https://juliatsai0605-stack.github.io/picture-ppt-local/  
 > **完整操作教學**：網站內「使用教學」；[影片錄製腳本](docs/VIDEO_SCRIPT.md)（真實操作影片尚待錄製）  
 > **未來專案發布範本**：[GitHub 展示網站與影片發布流程](docs/PROJECT_LAUNCH_TEMPLATE.md)  
 
@@ -12,11 +12,11 @@
 
 **下載狀態（待發布）：** 目前 GitHub 尚無正式 Release 或可下載的 Windows ZIP。待核對 v6 發行檔後，將透過 [Releases](../../releases) 提供；請勿將原始碼壓縮包誤當成免安裝程式。
 
-## 使用方式（免安裝）
+## 使用方式（Windows 發行版）
 
 1. 在壓縮檔上按右鍵 →「解壓縮全部」（請勿在壓縮檔內直接執行）。
 2. 進入 `slide2pptx` 資料夾，點兩下「圖片簡報轉PPT.exe」。
-3. 若出現藍色視窗「Windows 已保護您的電腦」：按「其他資訊」→「仍要執行」。
+3. 若 Windows 顯示 SmartScreen 或其他安全提示，先核對發行來源及檔案安全性，並遵循電腦的安全政策，不要逕行關閉防護。
 4. 瀏覽器會自動開啟操作畫面（網址 `http://127.0.0.1:7860`，僅本機可連）。
 5. 上傳圖片 →「① 辨識文字」→ 在表格校對錯字 →「② 產生 PPT」→ 下載。
 
@@ -29,7 +29,7 @@
 
 ## 系統需求
 
-Windows 10／11 64 位元；建議記憶體 8 GB 以上；不需安裝 Python 或其他軟體，不需系統管理員權限。
+Windows 10／11 64 位元；建議記憶體 8 GB 以上；無須另行安裝 Python；桌面捷徑與是否需要執行安裝程序，應依 v6 正式發行版本驗證。
 
 ## 常見問題
 
