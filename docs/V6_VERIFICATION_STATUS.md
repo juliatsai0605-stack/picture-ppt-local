@@ -15,7 +15,7 @@
 ## 尚未驗證／發布
 
 - [x] Windows 桌機成功解壓縮 ZIP；EXE 未具數位簽章，Microsoft Defender 即時防護啟用，已完成資料夾自訂掃描。
-- [ ] **啟動阻擋待排除**：2026-11-04 使用 Windows PowerShell 啟動 EXE 時，Windows 回報檔案含病毒或潛在不需要的軟體，程式未啟動；同時段 Defender 事件中未查得與此檔案對應的新威脅偵測，尚無法判定是否誤判或由哪一層防護阻擋。請先檢查 Windows 安全性保護歷程及事件日誌，不應停用防護或加入排除清單。
+- [ ] **啟動阻擋待排除**：2026-11-04 使用 Windows PowerShell 啟動 EXE 時，Windows 回報檔案含病毒或潛在不需要的軟體，程式未啟動；同時段 Defender 事件中未查得與此檔案對應的新威脅偵測。進一步於 `Microsoft-Windows-CodeIntegrity/Operational` 查得事件 **3077、3033**，指出 EXE **未達 Enterprise signing level／違反 Code Integrity policy**（Policy ID：`{0283ac0f-fff1-49ae-ada1-8a933130cad6}`），故現階段較明確的阻擋原因為簽章／程式碼完整性政策。不得據此認定 EXE 為惡意程式，也不可停用防護或加入排除清單。應由負責的系統／資安管理者確認適用簽章及發行政策。
 - [ ] 安全阻擋原因釐清後，再於 Windows 10/11 實際啟動 EXE，記錄等待時間、黑色視窗及 SmartScreen 提示（如有）。
 - [ ] 在 Windows 介面的辨識校對表格中修改錯字，確認修改有保存並進入輸出結果。
 - [ ] 使用 Microsoft PowerPoint 開啟 PPTX，確認文字實際可選取、可修改、底圖仍在。
