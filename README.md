@@ -10,13 +10,13 @@
 
 ## 下載
 
-**下載狀態（待發布）：** 目前 GitHub 尚無正式 Release 或可下載的 Windows ZIP。待核對 v6 發行檔後，將透過 [Releases](../../releases) 提供；請勿將原始碼壓縮包誤當成免安裝程式。
+**Windows v6.0.0 已正式發布：** [下載 Windows v6 ZIP（約 352 MiB）](https://github.com/juliatsai0605-stack/picture-ppt-local/releases/download/v6.0.0/picture-to-editable-ppt_Windows_v6.zip)。另可查看 [GitHub Release 發布說明](https://github.com/juliatsai0605-stack/picture-ppt-local/releases/tag/v6.0.0)。請勿將 GitHub 自動產生的 Source code ZIP 誤當成 Windows 執行版本。
 
 ## 使用方式（Windows 發行版）
 
 1. 在壓縮檔上按右鍵 →「解壓縮全部」（請勿在壓縮檔內直接執行）。
 2. 進入 `slide2pptx` 資料夾，點兩下「圖片簡報轉PPT.exe」。
-3. 若 Windows 顯示 SmartScreen 或其他安全提示，先核對發行來源及檔案安全性，並遵循電腦的安全政策，不要逕行關閉防護。
+3. 此版為免安裝可攜版，**不會自動建立桌面捷徑**。Windows 若顯示安全警告，請先核對來源並遵循電腦的資訊安全政策；企業簽章政策可能阻止未簽署程式執行。
 4. 瀏覽器會自動開啟操作畫面（網址 `http://127.0.0.1:7860`，僅本機可連）。
 5. 上傳圖片 →「① 辨識文字」→ 在表格校對錯字 →「② 產生 PPT」→ 下載。
 
@@ -29,7 +29,7 @@
 
 ## 系統需求
 
-Windows 10／11 64 位元；建議記憶體 8 GB 以上；無須另行安裝 Python；桌面捷徑與是否需要執行安裝程序，應依 v6 正式發行版本驗證。
+Windows 10／11 64 位元；建議記憶體 8 GB 以上；無須另行安裝 Python。v6 為免安裝可攜版，並不自動建立桌面捷徑。
 
 ## 常見問題
 
