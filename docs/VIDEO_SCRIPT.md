@@ -54,3 +54,10 @@
 ## 目前錄影阻礙及交接
 
 截至 2026-11-04 仍無真正的 Windows v6 操作 MP4。家中桌機受 Windows Code Integrity／Smart App Control 限制，不能關閉防護強行錄製；優先在曾成功執行 v6 的筆電或合法可執行環境錄影。詳細見 [V6_VIDEO_HANDOFF.md](V6_VIDEO_HANDOFF.md)。
+
+## Windows v6 真實影片已發布（2026-11-04）
+
+- [播放／下載約 72 秒字幕版真實教學影片](media/windows-v6-real-tutorial.mp4)。
+- 已完成：三張圖片匯入、OCR 21 段文字、PPTX 三頁、PowerPoint 21 個可編輯文字方塊驗證。
+- 影片為真實 Windows 11 v6 錄影，等待片段加速；結尾的 PowerPoint 成果為實機輸出靜態圖像，不是剪接出來的假 GUI。
+- 公開版已內嵌繁體字幕；未發布授權未明的 Windows 內建 TTS 語音。
