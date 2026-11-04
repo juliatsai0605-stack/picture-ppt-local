@@ -1,6 +1,6 @@
 # Windows v6 教學影片交接及錄製限制（2026-11-04）
 
-> 本文件依 Claude 於對話提供的交接報告整理，**不是 Claude 原始檔案逐字副本**。截至本次紀錄，**沒有完成 Windows 實機教學影片，也沒有可供發布的 MP4**。
+> 本文件依 Claude 於對話提供的交接報告整理，**不是 Claude 原始檔案逐字副本**。**更新（2026-11-04）：** 已在可啟動 v6 的 Windows 11 筆電錄製真實操作，公開約72秒[繁體中文字幕 MP4](media/windows-v6-real-tutorial.mp4)。早期版本所述「尚無 MP4」為當時狀態；後續已完成並發布。
 
 ## 目前狀態
 
@@ -8,7 +8,7 @@
 - **公開展示網站**：https://juliatsai0605-stack.github.io/picture-ppt-local/
 - **ZIP 大小**：369,330,309 位元組。
 - **SHA-256**：`f3278622a93e70ccdd91479550cd29d2afa0a525689d0550cec92986770bc873`
-- **教學影片**：未錄製，無正式 MP4。Linux 先前測試截圖／12 秒錄影不能冒充 Windows 實測。
+- **教學影片**：已以 Windows 11 真實 v6 介面完成三張圖片 OCR（21 段文字）及 PPTX 轉換錄影，發布約72秒字幕版；未使用舊版 Linux 模擬錄影。
 - **正式字幕及腳本**：`docs/VIDEO_SCRIPT.md`、`docs/VIDEO_SUBTITLES_v6.srt` 為待錄製素材，並非影片。
 
 ## Windows 執行限制
@@ -48,3 +48,12 @@
 ## 新增錄影操作指引
 
 請參閱 [V6_RECORDING_GUIDE.md](V6_RECORDING_GUIDE.md)，包含筆電安全前提、錄影軟體選擇、測試圖連結及原始素材交付規格。
+
+## 發布完成與驗收紀錄
+
+- 版本：Windows v6.0.0，ZIP SHA-256 與正式 Release 一致。
+- 實機：Windows 11 筆電；三張原創公開測試 PNG；OCR 21 段；產生 3 張 PPTX 約 64 秒。
+- 文字可編輯驗證：Microsoft PowerPoint 實際開啟，3 張各有 7 個可編輯文字方塊，共 21 個；已修改文字並另存驗證檔。
+- 公開影片：[`docs/media/windows-v6-real-tutorial.mp4`](media/windows-v6-real-tutorial.mp4)，約 72 秒，H.264，繁體中文字幕。等待片段已加速；最後 PowerPoint 圖像是軟體實際輸出成果，不是 PowerPoint 視窗操作影片。
+- 隱私審查：影片僅包含獨立瀏覽器開啟的本機 v6 測試介面、自製公開測試圖片、PowerPoint 輸出圖像及公開展示網站；抽樣影格確認未見私人桌面或通知。
+- 聲音：公開影片暫無旁白；內建 Windows TTS 有聲草稿僅保留於筆電，因公開散布授權尚未確認而未上傳。
