@@ -36,3 +36,9 @@
 - 可參考 [60 秒分鏡](VIDEO_SCRIPT.md) 與 [字幕 SRT](VIDEO_SUBTITLES_v6.srt)，正式剪輯時以錄製畫面調整字幕時間。
 
 **交付前不得把示意動畫、單張截圖或程式碼視為已完成的 Windows 影片。**
+
+## 筆電一鍵準備工具（2026-11-04）
+
+已新增 [`prepare-v6-recording.ps1`](prepare-v6-recording.ps1)；其用途為在**可合法執行 v6 的 Windows 筆電**下載官方 ZIP、驗證 SHA-256、解壓縮並備好三張公開測試圖片。它會開啟素材資料夾、詢問是否啟動 EXE，**不會自動錄影或修改 Windows 安全政策**。
+
+先將該 PS1 檔下載到筆電，於 PowerShell 中執行檔案（須符合本機指令碼執行政策），依畫面選擇；切勿為執行指令碼而降低機關或電腦安全政策。成功後素材位於個人 `Videos/PPT_v6_Recordings`。**該腳本已通過 Windows PowerShell 5.1 語法解析，但尚未在筆電完成實際執行驗收。**
