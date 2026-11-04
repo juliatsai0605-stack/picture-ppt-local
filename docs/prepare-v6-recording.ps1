@@ -1,4 +1,4 @@
-#requires -version 5.1
+﻿#requires -version 5.1
 <#
 Windows v6 真實操作錄影準備工具（不繞過任何安全防護）
 1. 從原專案 Release 下載 ZIP，驗證 SHA-256
